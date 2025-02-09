@@ -1,0 +1,78 @@
+/* Background Styling */
+.super-admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  /* Login Card */
+  .login-card {
+    background: #FFFFFF;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  /* Titles */
+  .title {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .input-group i {
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    border: none;
+    background: transparent;
+    flex: 1;
+    outline: none;
+    padding: 8px;
+  }
+  
+  /* Login Button */
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #0056ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background: #0040cc;
+  }
+  

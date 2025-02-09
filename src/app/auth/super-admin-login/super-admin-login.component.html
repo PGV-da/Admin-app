@@ -1,0 +1,28 @@
+<div class="super-admin-login-container">
+    <div class="login-card">
+      <img src="assets/logo.png" alt="University Logo" class="logo" />
+      <h2 class="title">Anna University, Chennai</h2>
+      <h3 class="subtitle">Super Admin Login</h3>
+  
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="input-group">
+          <label for="username">
+            <i class="fa fa-user"></i>
+          </label>
+          <input type="text" id="username" placeholder="Username" formControlName="username" required />
+        </div>
+  
+        <div class="input-group">
+          <label for="password">
+            <i class="fa fa-lock"></i>
+          </label>
+          <input type="password" id="password" placeholder="Password" formControlName="password" required />
+        </div>
+  
+        <button type="submit" class="login-btn">Login</button>
+  
+        <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+      </form>
+    </div>
+  </div>
+  
