@@ -1,0 +1,96 @@
+.admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .login-card {
+    display: flex;
+    width: 650px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .left-panel {
+    background: #e0e0e0;
+    width: 40%;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .right-panel {
+    width: 60%;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .icon-container {
+    font-size: 50px;
+    color: #6a5acd;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+  }
+  
+  .forgot-password {
+    font-size: 12px;
+    color: blue;
+    margin-left: 60%;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .login-btn:hover {
+    background: #0056b3;
+  }
+  
+  .register-text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .register-link {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

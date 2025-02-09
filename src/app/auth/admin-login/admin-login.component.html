@@ -1,1 +1,43 @@
-<p>admin-login works!</p>
+<div class="admin-login-container">
+    <div class="login-card">
+      <!-- Left Section -->
+      <div class="left-panel">
+        <img src="assets/logo.png" alt="University Logo" class="logo" />
+        <h2>Anna University, Chennai</h2>
+        <h3>Admin Login</h3>
+      </div>
+  
+      <!-- Right Section -->
+      <div class="right-panel">
+        <div class="icon-container">
+          <i class="fa fa-user-circle"></i>
+        </div>
+        <h2>Login</h2>
+  
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="input-group">
+            <label for="username">
+              <i class="fa fa-user"></i>
+            </label>
+            <input type="text" id="username" placeholder="Username" formControlName="username" required />
+          </div>
+  
+          <div class="input-group">
+            <label for="password">
+              <i class="fa fa-lock"></i>
+            </label>
+            <input type="password" id="password" placeholder="Password" formControlName="password" required />
+            
+          </div>
+          <span class="forgot-password">Forgot Password?</span>
+  
+          <button type="submit" class="login-btn">Login</button>
+  
+          <p class="register-text">
+            You don't have an account? <a href="#" class="register-link">REGISTER</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  
